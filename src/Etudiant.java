@@ -1,4 +1,4 @@
-import javax.xml.bind.SchemaOutputResolver;
+
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -69,9 +69,9 @@ public class Etudiant {
         return new Date().getYear() - date_naissance.getYear();
     }
 
-    public double bonifier(double bonus) {
+    public void bonifier(double bonus) {
         moyenne += bonus;
-        return moyenne;
+
     }
 }
 
