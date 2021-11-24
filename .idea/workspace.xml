@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="933749d9-ec0d-4b53-8973-b4778f086b36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java project l2/Etudiant.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java project l2/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="933749d9-ec0d-4b53-8973-b4778f086b36" name="Changes" comment="methode create">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java project l2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java project l2/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Etudiant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +60,14 @@
       <option name="presentableId" value="Default" />
       <updated>1637311241693</updated>
     </task>
+    <task id="LOCAL-00001" summary="methode create">
+      <created>1637740941488</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637740941488</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,6 +81,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="methode create" />
+    <option name="LAST_COMMIT_MESSAGE" value="methode create" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

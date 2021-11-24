@@ -56,7 +56,7 @@ public class Etudiant {
     }
 
     void afficher() {
-        System.out.print("Etudiant{" +
+        System.out.println("Etudiant{" +
                 "matricule='" + matricule + '\'' +
                 ", nom='" + nom + '\'' +
                 ", genre=" + genre +
