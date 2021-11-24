@@ -7,53 +7,65 @@ public class Etudiant {
     private String matricule;
     private String nom;
     private char genre;
-    private Date date_naissance = new Date();
+    private Date date_naissance;
     private double moyenne;
 
+    public Etudiant(String nom, String matricule, char genre, Date date_naissance, double moyenne) {
+            this.nom = nom;
+            this.matricule = matricule;
+            this.genre = genre;
+            this.date_naissance = date_naissance;
+            this.moyenne = moyenne;
+    }
 
-     void create_etudiant() {
+
+    public static Etudiant create_etudiant() {
         Scanner scan = new Scanner(System.in);
         // nom de l'etudiant
+        String nom;
         do {
             System.out.print("Entrez le nom de l'etudiant \n");
             nom = scan.nextLine();
         }while (nom.length() < 3);
 
         // matricule de l'etudiant
+        String matricule;
         do {
             System.out.print("Entrez le matricule de l'etudiant \n");
             matricule = scan.nextLine();
         }while (matricule.length() < 7);
 
         // genre de l'etudiant
-
+        char genre;
          do{
              System.out.print("Entrez le genre de l'etudiant \n");
              genre = scan.nextLine().charAt(0);
          }while (genre != 'M' && genre !='F' );
 
          // moyenne de l'etudiant
-
+        double moyenne;
          do{
              System.out.print("Entrez la moyenne de l'etudiant \n");
              moyenne = scan.nextDouble();
          }while (moyenne > 20);
 
          // date de naissance de l'etudiant
-
+         Date date_naissance = null;
          boolean dt = false;
-         do{
+        while(!dt){
              SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-             date_naissance = null;
              System.out.print("Entrez la date de naissance au format dd/MM/yyyy \n");
+             String dateInString = scan.nextLine();
              try {
-                 date_naissance = sdf.parse(scan.nextLine());
+                 date_naissance = sdf.parse(dateInString);
                  dt = true;
              } catch (ParseException e) {
-                 e.printStackTrace();
+
              }
-         }while(!dt);
+         }
+         return new Etudiant(nom,matricule,genre,date_naissance,moyenne);
     }
+
 
     void afficher() {
         System.out.println("Etudiant{" +
