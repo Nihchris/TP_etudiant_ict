@@ -1,4 +1,6 @@
-import java.text.DateFormat;
+import javax.xml.bind.SchemaOutputResolver;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class Etudiant {
@@ -37,6 +39,20 @@ public class Etudiant {
              moyenne = scan.nextDouble();
          }while (moyenne > 20);
 
+         // date de naissance de l'etudiant
+
+         boolean dt = false;
+         do{
+             SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+             date_naissance = null;
+             System.out.print("Entrez la date de naissance au format dd/MM/yyyy \n");
+             try {
+                 date_naissance = sdf.parse(scan.nextLine());
+                 dt = true;
+             } catch (ParseException e) {
+                 e.printStackTrace();
+             }
+         }while(!dt);
     }
 
     void afficher() {
