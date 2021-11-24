@@ -4,11 +4,11 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class Etudiant {
-    private String matricule;
-    private String nom;
-    private char genre;
-    private Date date_naissance;
-    private double moyenne;
+    public String matricule;
+    public String nom;
+    public char genre;
+    public Date date_naissance;
+    public double moyenne;
 
     public Etudiant(String nom, String matricule, char genre, Date date_naissance, double moyenne) {
             this.nom = nom;
