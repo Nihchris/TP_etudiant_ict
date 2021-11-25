@@ -46,9 +46,9 @@ public class Main {
                     break;
                 case 5 : break;
             }
-            System.out.println("continuer ? o/n");
+            System.out.println("arretez le programme ? o/n");
             c = scan.nextLine().charAt(0);
-        }while(c== 'o');
+        }while(c== 'n' || c == 'N');
 
 
     }

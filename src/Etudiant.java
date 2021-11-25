@@ -40,7 +40,7 @@ public class Etudiant {
          do{
              System.out.print("Entrez le genre de l'etudiant \n");
              genre = scan.nextLine().charAt(0);
-         }while (genre != 'M' && genre !='F' );
+         }while ((genre != 'M' && genre !='F') && (genre != 'm' && genre !='f') );
 
          // moyenne de l'etudiant
         double moyenne;

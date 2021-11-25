@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="933749d9-ec0d-4b53-8973-b4778f086b36" name="Changes" comment="update de la methode create etudiant">
+    <list default="true" id="933749d9-ec0d-4b53-8973-b4778f086b36" name="Changes" comment="TP terminer !!!">
       <change afterPath="$PROJECT_DIR$/src/GestionEtudiant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java project l2/Etudiant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java project l2/Etudiant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java project l2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java project l2/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Etudiant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Etudiant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -25,6 +26,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/Etudiant.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="2188Dv4GYYzmBUxsqOyzSqgJOd4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -88,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637751700157</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TP terminer !!!">
+      <created>1637792024339</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637792024339</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,7 +119,8 @@
     <MESSAGE value="implementation de la classe etudiant" />
     <MESSAGE value="implementation de la classe etudiant , test 2" />
     <MESSAGE value="update de la methode create etudiant" />
-    <option name="LAST_COMMIT_MESSAGE" value="update de la methode create etudiant" />
+    <MESSAGE value="TP terminer !!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="TP terminer !!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
